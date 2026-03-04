@@ -6,7 +6,7 @@ from .models import Products
 
 class ProductModel(admin.ModelAdmin):
     prepopulated_fields={'slug':('product_name',)}
-    list_display=('product_name','price','stocks','created_at','updated_at')
+    list_display=('product_name','price','stocks','category','created_at','updated_at')
     
     
 admin.site.register(Products,ProductModel)
