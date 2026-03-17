@@ -1,0 +1,25 @@
+pipeline {
+    agent any
+
+    stages {
+
+        stage('Clone Code') {
+            steps {
+                git 'https://github.com/subhash546/shoplocal.git'
+            }
+        }
+
+        stage('Install Dependencies') {
+            steps {
+                sh 'pip install -r requirements.txt'
+            }
+        }
+
+        stage('Run Django Tests') {
+            steps {
+                sh 'python manage.py test'
+            }
+        }
+
+    }
+}

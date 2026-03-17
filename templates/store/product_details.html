@@ -7,7 +7,7 @@
         <aside class="col-md-6">
           <article class="gallery-wrap">
             <div class="img-big-wrap">
-              <a href="#"><img src="./images/items/12.jpg" /></a>
+              <a href=""><img src="{{product.photo.url}}" /></a>
             </div>
             <!-- img-big-wrap.// -->
           </article>
@@ -15,10 +15,12 @@
         </aside>
         <main class="col-md-6 border-left">
           <article class="content-body">
-            <h2 class="title">{{product.product_name}}</h2>
+            <a href="{{product.get_url}}">
+              <h2 class="title">{{product.product_name}}</h2>
+            </a>
 
             <div class="mb-3">
-              <var class="price h4">$815.00</var>
+              <var class="price h4">{{product.price}}</var>
             </div>
 
             <p>
@@ -76,9 +78,13 @@
             </div>
             <!-- row.// -->
             <hr />
-            <a href="./product-detail.html" class="btn btn-primary">
+            <a href="{% url 'addcart' product.id %}" class="btn btn-primary">
+              {% if product.stocks > 0 %}
               <span class="text">Add to cart</span>
               <i class="fas fa-shopping-cart"></i>
+              {% else %}
+              <h3>Out of stock</h3>
+              {% endif %}
             </a>
           </article>
           <!-- product-info-aside .// -->
