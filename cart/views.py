@@ -3,8 +3,28 @@ from .models import Products,Cart,CartItem
 
 # Create your views here.
 
-def cart(request):
-    return render(request,"store/cart/cart.html")
+def cart(request, total=0, quantity=0, cart_items=None):
+    try:
+        # Placeholder for logic, e.g., fetching cart items
+        cart =Cart.objects.get(cart_id=_card_id(request))
+        cart_items=CartItem.objects.filter(cart=cart,is_active=True)
+        for i in cart_items:
+            total+=(i.product.price * i.quantity)
+            quantity+=i.quantity
+    except Exception as e:
+        # Handle exception or log it
+        pass
+    context={
+        "total":total,
+        "quantity":quantity,
+        "cart":cart_items
+    }
+
+    return render(request, "store/cart/cart.html",context)
+
+
+
+
 
 def _card_id(request):
     cart=request.session.session_key
