@@ -11,16 +11,38 @@ def cart(request, total=0, quantity=0, cart_items=None):
         for i in cart_items:
             total+=(i.product.price * i.quantity)
             quantity+=i.quantity
+        tax=(2*total)/100
+        full_total=total+tax
     except Exception as e:
         # Handle exception or log it
         pass
     context={
         "total":total,
+        "tax":tax,
+        "full_total":full_total,
         "quantity":quantity,
         "cart":cart_items
     }
 
     return render(request, "store/cart/cart.html",context)
+
+def minus_cart(request,product_id):
+    cart=Cart.objects.get(cart_id=_card_id(request))
+    product=get_object_or_404(Products,id=product_id)
+    cart_items=CartItem.objects.get(product=product,cart=cart)
+    if cart_items.quantity>1:
+        cart_items.quantity-=1
+        cart_items.save()
+    else:
+        cart_items.delete()
+    return redirect("cart")
+
+def removecart(request,product_id):
+    cart=Cart.objects.get(cart_id=_card_id(request))
+    product=get_object_or_404(Products,id=product_id)
+    cart_items=CartItem.objects.get(product=product,cart=cart)
+    cart_items.delete()
+    return redirect("cart")
 
 
 
