@@ -13,19 +13,23 @@ pipeline {
             }
         }
 
-        stage('Set Version') {
-            steps {
-                script {
-                    if (env.BRANCH_NAME == "main") {
-                        VERSION = "prod-${BUILD_NUMBER}"
-                    } else if (env.BRANCH_NAME == "stage") {
-                        VERSION = "staging-${BUILD_NUMBER}"
-                    } else {
-                        VERSION = "dev-${BUILD_NUMBER}"
-                    }
-                }
+      stage('Set Version') {
+    steps {
+        script {
+            def branch = env.GIT_BRANCH
+
+            echo "Branch detected: ${branch}"
+
+            if (branch.contains("main")) {
+                VERSION = "prod-${BUILD_NUMBER}"
+            } else if (branch.contains("stage")) {
+                VERSION = "staging-${BUILD_NUMBER}"
+            } else {
+                VERSION = "dev-${BUILD_NUMBER}"
             }
         }
+    }
+}
 
         stage('Build Docker Image') {
             steps {
