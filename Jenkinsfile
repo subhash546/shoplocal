@@ -33,17 +33,26 @@ pipeline {
             }
         }
 
-     stage('Push Image to DockerHub') {
+   stage('Push Image to DockerHub') {
     steps {
         withCredentials([usernamePassword(
             credentialsId: 'dockerhub-creds',
             usernameVariable: 'USER',
             passwordVariable: 'PASS'
         )]) {
-            sh """
+            sh '''
+            echo "Logging into DockerHub..."
+            echo $PASS | docker login -u $USER --password-stdin
+
+            echo "Pushing version..."
+            docker push $IMAGE_NAME:$VERSION
+
+            echo "Tagging latest..."
             docker tag $IMAGE_NAME:$VERSION $IMAGE_NAME:latest
+
+            echo "Pushing latest..."
             docker push $IMAGE_NAME:latest
-            """
+            '''
         }
     }
 }
