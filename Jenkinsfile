@@ -18,24 +18,15 @@ pipeline {
         script {
             def branch = env.GIT_BRANCH
 
-            // get commit count of current branch
-            def commitCount = sh(
-                script: "git rev-list --count HEAD",
-                returnStdout: true
-            ).trim()
-
-            echo "Branch: ${branch}"
-            echo "Commit Count: ${commitCount}"
+            echo "Branch detected: ${branch}"
 
             if (branch.contains("main")) {
-                VERSION = "prod-${commitCount}"
+                VERSION = "prod-${BUILD_NUMBER}"
             } else if (branch.contains("stage")) {
-                VERSION = "staging-${commitCount}"
+                VERSION = "staging-${BUILD_NUMBER}"
             } else {
-                VERSION = "dev-${commitCount}"
+                VERSION = "dev-${BUILD_NUMBER}"
             }
-
-            echo "Final Version: ${VERSION}"
         }
     }
 }
