@@ -1,0 +1,1251 @@
+[{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "category",
+    "model": "category"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "account",
+    "model": "account"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "store",
+    "model": "products"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "cart",
+    "model": "cart"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "cart",
+    "model": "cartitem"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5qke01zm88latzzc6c4fpt33t1u883yg",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEMhQFcuvcbyPCSqoGktCvjv2uTLnR7zzn3xTxta_XbyIufEzszYKffLVB85LaDdKd26zz2ti5z4LvCDzr4taf8vBzu30GlUb91UdJgFmTRxQRGSeFEJNBolAacCIoD0MZOwTiNYGVKpRQnUEcMhoC9P7K4Nr8:1vwCbO:RKmgWUzEpdQAkb0L_LiqJVETrnbTz0EQQpAEbm8y3VQ",
+    "expire_date": "2026-03-14T05:10:54.354Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "8sswz5wo0ftj291d63a075nr0j67l64v",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEMhQFcuvcbyPCSqoGktCvjv2uTLnR7zzn3xTxta_XbyIufEzszYKffLVB85LaDdKd26zz2ti5z4LvCDzr4taf8vBzu30GlUb91UdJgFmTRxQRGSeFEJNBolAacCIoD0MZOwTiNYGVKpRQnUEcMhoC9P7K4Nr8:1w5K4y:UscDZLSsV09mLKpXPOxuc07pZaj9mWeQqzHCIDISmQw",
+    "expire_date": "2026-04-08T08:59:08.551Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "hrsvrsqstjxroote5q9pf36e9c3msrcb",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEMhQFcuvcbyPCSqoGktCvjv2uTLnR7zzn3xTxta_XbyIufEzszYKffLVB85LaDdKd26zz2ti5z4LvCDzr4taf8vBzu30GlUb91UdJgFmTRxQRGSeFEJNBolAacCIoD0MZOwTiNYGVKpRQnUEcMhoC9P7K4Nr8:1vzpbg:e_0LNOCUF9ikz7Opk3XAMqaAPo0go1TlQYrJbuuo42w",
+    "expire_date": "2026-03-24T05:26:12.178Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "job6gvzr550a173s6xkp3ql359cuoe9d",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEMhQFcuvcbyPCSqoGktCvjv2uTLnR7zzn3xTxta_XbyIufEzszYKffLVB85LaDdKd26zz2ti5z4LvCDzr4taf8vBzu30GlUb91UdJgFmTRxQRGSeFEJNBolAacCIoD0MZOwTiNYGVKpRQnUEcMhoC9P7K4Nr8:1vxjxl:5V0IbJeCe0x8N81p5AMNowrgfmO5eBdxr_90LwZnPTo",
+    "expire_date": "2026-03-18T11:00:21.829Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "kto0btj4y9fyhtf9844p25kwzqphdpce",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEMhQFcuvcbyPCSqoGktCvjv2uTLnR7zzn3xTxta_XbyIufEzszYKffLVB85LaDdKd26zz2ti5z4LvCDzr4taf8vBzu30GlUb91UdJgFmTRxQRGSeFEJNBolAacCIoD0MZOwTiNYGVKpRQnUEcMhoC9P7K4Nr8:1w5zb5:xKOrWOOFvS8QeB-HbHyFc578RSY95lplyCXXbVc4OUI",
+    "expire_date": "2026-04-10T05:19:03.752Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ux01za31y1ngaoltluf5xpnpwkt3lh2j",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEMhQFcuvcbyPCSqoGktCvjv2uTLnR7zzn3xTxta_XbyIufEzszYKffLVB85LaDdKd26zz2ti5z4LvCDzr4taf8vBzu30GlUb91UdJgFmTRxQRGSeFEJNBolAacCIoD0MZOwTiNYGVKpRQnUEcMhoC9P7K4Nr8:1vwBuv:ds9Aq-NI2wbRRnnj2VLOkdFPyMY9exNn56ekFPbLkBA",
+    "expire_date": "2026-03-14T04:27:01.317Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xkhk1amjedfnvmiud13ia5c2ypixviu2",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEMhQFcuvcbyPCSqoGktCvjv2uTLnR7zzn3xTxta_XbyIufEzszYKffLVB85LaDdKd26zz2ti5z4LvCDzr4taf8vBzu30GlUb91UdJgFmTRxQRGSeFEJNBolAacCIoD0MZOwTiNYGVKpRQnUEcMhoC9P7K4Nr8:1vxHql:cRbDdEugxmy141W6yQI_RnWbzXZ4jn3zK7vZ_Xm2zu4",
+    "expire_date": "2026-03-17T04:59:15.145Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zovt8y66cxdbub357ge0llviwiw4axgi",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEMhQFcuvcbyPCSqoGktCvjv2uTLnR7zzn3xTxta_XbyIufEzszYKffLVB85LaDdKd26zz2ti5z4LvCDzr4taf8vBzu30GlUb91UdJgFmTRxQRGSeFEJNBolAacCIoD0MZOwTiNYGVKpRQnUEcMhoC9P7K4Nr8:1vwxL4:-96Jxg8GAtTczbOBpD3HN5tH3BgRBSNy4S88KuYA87M",
+    "expire_date": "2026-03-16T07:05:10.531Z"
+  }
+},
+{
+  "model": "category.category",
+  "pk": 1,
+  "fields": {
+    "category_name": "shirts",
+    "slug": "shirts",
+    "description": "these are the branded shirts",
+    "cat_img": "photos/category/shirts.jpg"
+  }
+},
+{
+  "model": "category.category",
+  "pk": 2,
+  "fields": {
+    "category_name": "jeans",
+    "slug": "jeans",
+    "description": "these are the jeans",
+    "cat_img": "photos/category/jeans.jpg"
+  }
+},
+{
+  "model": "category.category",
+  "pk": 3,
+  "fields": {
+    "category_name": "pants",
+    "slug": "pants",
+    "description": "these are the pants",
+    "cat_img": "photos/category/jeans_uRs6YZT.jpg"
+  }
+},
+{
+  "model": "category.category",
+  "pk": 4,
+  "fields": {
+    "category_name": "jackets",
+    "slug": "jackets",
+    "description": "these are the jackets",
+    "cat_img": "photos/category/jackets.jpg"
+  }
+},
+{
+  "model": "category.category",
+  "pk": 5,
+  "fields": {
+    "category_name": "t-shirts",
+    "slug": "t-shirts",
+    "description": "these are the t-shirts",
+    "cat_img": "photos/category/tshirts.jpg"
+  }
+},
+{
+  "model": "category.category",
+  "pk": 6,
+  "fields": {
+    "category_name": "shoes",
+    "slug": "shoes",
+    "description": "these are shoes",
+    "cat_img": "photos/category/shoes.png"
+  }
+},
+{
+  "model": "store.products",
+  "pk": 1,
+  "fields": {
+    "product_name": "ATX-JEANS",
+    "slug": "atx-jeans",
+    "description": "Premium cotton men's t-shirt made with 100% breathable fabric.\r\nRegular fit with round neck design.\r\nSoft, lightweight and comfortable for daily wear.\r\nAvailable in multiple sizes (S, M, L, XL).",
+    "price": 200,
+    "is_available": true,
+    "stocks": 120,
+    "photo": "photos/product/ATX-Jeans.jpg",
+    "category": 2,
+    "created_at": "2026-02-28T09:07:09.105Z",
+    "updated_at": "2026-02-28T09:07:09.105Z"
+  }
+},
+{
+  "model": "store.products",
+  "pk": 2,
+  "fields": {
+    "product_name": "Great-Tshirt",
+    "slug": "great-tshirt",
+    "description": "Elegant women's kurti crafted from high-quality rayon fabric.\r\nComfortable straight fit with stylish printed design.\r\nSuitable for office wear and festive occasions.\r\nAvailable in sizes S to XXL.\r\nHand wash recommended",
+    "price": 6000,
+    "is_available": true,
+    "stocks": 500,
+    "photo": "photos/product/Great-Tshirt.jpg",
+    "category": 5,
+    "created_at": "2026-02-28T09:11:02.466Z",
+    "updated_at": "2026-02-28T09:11:02.466Z"
+  }
+},
+{
+  "model": "store.products",
+  "pk": 3,
+  "fields": {
+    "product_name": "Blue-shirt",
+    "slug": "blue-shirt",
+    "description": "Elegant women's kurti crafted from high-quality rayon fabric.\r\nComfortable straight fit with stylish printed design.\r\nSuitable for office wear and festive occasions.\r\nAvailable in sizes S to XXL.\r\nHand wash recommended",
+    "price": 4000,
+    "is_available": true,
+    "stocks": 400,
+    "photo": "photos/product/tshirts.jpg",
+    "category": 1,
+    "created_at": "2026-02-28T09:16:13.265Z",
+    "updated_at": "2026-02-28T09:16:13.265Z"
+  }
+},
+{
+  "model": "store.products",
+  "pk": 4,
+  "fields": {
+    "product_name": "cargo",
+    "slug": "cargo",
+    "description": "these  is the cargo pant",
+    "price": 5000,
+    "is_available": true,
+    "stocks": 500,
+    "photo": "photos/product/cargo.png",
+    "category": 4,
+    "created_at": "2026-02-28T09:25:26.922Z",
+    "updated_at": "2026-02-28T09:25:26.923Z"
+  }
+},
+{
+  "model": "store.products",
+  "pk": 5,
+  "fields": {
+    "product_name": "bluebay",
+    "slug": "bluebay",
+    "description": "these is the rarebit",
+    "price": 350,
+    "is_available": true,
+    "stocks": 0,
+    "photo": "photos/product/t-shirt.jpg",
+    "category": 5,
+    "created_at": "2026-02-28T09:26:16.313Z",
+    "updated_at": "2026-03-25T08:59:34.698Z"
+  }
+},
+{
+  "model": "store.products",
+  "pk": 6,
+  "fields": {
+    "product_name": "checks",
+    "slug": "checks",
+    "description": "these is the check shirt",
+    "price": 390,
+    "is_available": true,
+    "stocks": 234,
+    "photo": "photos/product/shopping.jpeg",
+    "category": 5,
+    "created_at": "2026-02-28T09:27:00.795Z",
+    "updated_at": "2026-02-28T09:27:00.795Z"
+  }
+},
+{
+  "model": "store.products",
+  "pk": 7,
+  "fields": {
+    "product_name": "shirt",
+    "slug": "shirt",
+    "description": "these is the shirt",
+    "price": 200,
+    "is_available": true,
+    "stocks": 64,
+    "photo": "photos/product/shirt.jpg",
+    "category": 5,
+    "created_at": "2026-02-28T09:48:13.848Z",
+    "updated_at": "2026-02-28T09:48:13.848Z"
+  }
+},
+{
+  "model": "store.products",
+  "pk": 8,
+  "fields": {
+    "product_name": "pants",
+    "slug": "pants",
+    "description": "these is the pant",
+    "price": 400,
+    "is_available": true,
+    "stocks": 45,
+    "photo": "photos/product/pants.jpg",
+    "category": 3,
+    "created_at": "2026-02-28T09:50:08.472Z",
+    "updated_at": "2026-02-28T10:04:15.471Z"
+  }
+},
+{
+  "model": "store.products",
+  "pk": 9,
+  "fields": {
+    "product_name": "shoes",
+    "slug": "shoes",
+    "description": "these are the sjoes",
+    "price": 477,
+    "is_available": true,
+    "stocks": 463,
+    "photo": "photos/product/shoes.png",
+    "category": 6,
+    "created_at": "2026-03-03T05:09:09.958Z",
+    "updated_at": "2026-03-03T05:11:46.271Z"
+  }
+},
+{
+  "model": "cart.cart",
+  "pk": 1,
+  "fields": {
+    "cart_id": "hrsvrsqstjxroote5q9pf36e9c3msrcb",
+    "created_at": "2026-03-10T13:22:48.404Z"
+  }
+},
+{
+  "model": "cart.cart",
+  "pk": 2,
+  "fields": {
+    "cart_id": "iw8w794oz9p3wpogmx4uyjj5keb43ty8",
+    "created_at": "2026-03-18T11:23:18.065Z"
+  }
+},
+{
+  "model": "cart.cart",
+  "pk": 3,
+  "fields": {
+    "cart_id": "n33720x0b67riiyauomo7jedu1am3tbj",
+    "created_at": "2026-03-23T10:38:12.273Z"
+  }
+},
+{
+  "model": "cart.cart",
+  "pk": 4,
+  "fields": {
+    "cart_id": "8sswz5wo0ftj291d63a075nr0j67l64v",
+    "created_at": "2026-03-25T08:59:49.761Z"
+  }
+},
+{
+  "model": "cart.cartitem",
+  "pk": 1,
+  "fields": {
+    "product": 1,
+    "cart": 1,
+    "quantity": 14,
+    "is_active": true
+  }
+},
+{
+  "model": "cart.cartitem",
+  "pk": 3,
+  "fields": {
+    "product": 2,
+    "cart": 1,
+    "quantity": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "cart.cartitem",
+  "pk": 8,
+  "fields": {
+    "product": 1,
+    "cart": 2,
+    "quantity": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "cart.cartitem",
+  "pk": 9,
+  "fields": {
+    "product": 4,
+    "cart": 2,
+    "quantity": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "cart.cartitem",
+  "pk": 10,
+  "fields": {
+    "product": 2,
+    "cart": 2,
+    "quantity": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "cart.cartitem",
+  "pk": 17,
+  "fields": {
+    "product": 1,
+    "cart": 3,
+    "quantity": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add Category",
+    "content_type": [
+      "category",
+      "category"
+    ],
+    "codename": "add_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change Category",
+    "content_type": [
+      "category",
+      "category"
+    ],
+    "codename": "change_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete Category",
+    "content_type": [
+      "category",
+      "category"
+    ],
+    "codename": "delete_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view Category",
+    "content_type": [
+      "category",
+      "category"
+    ],
+    "codename": "view_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add account",
+    "content_type": [
+      "account",
+      "account"
+    ],
+    "codename": "add_account"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change account",
+    "content_type": [
+      "account",
+      "account"
+    ],
+    "codename": "change_account"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete account",
+    "content_type": [
+      "account",
+      "account"
+    ],
+    "codename": "delete_account"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view account",
+    "content_type": [
+      "account",
+      "account"
+    ],
+    "codename": "view_account"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add products",
+    "content_type": [
+      "store",
+      "products"
+    ],
+    "codename": "add_products"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change products",
+    "content_type": [
+      "store",
+      "products"
+    ],
+    "codename": "change_products"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete products",
+    "content_type": [
+      "store",
+      "products"
+    ],
+    "codename": "delete_products"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view products",
+    "content_type": [
+      "store",
+      "products"
+    ],
+    "codename": "view_products"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add cart",
+    "content_type": [
+      "cart",
+      "cart"
+    ],
+    "codename": "add_cart"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change cart",
+    "content_type": [
+      "cart",
+      "cart"
+    ],
+    "codename": "change_cart"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete cart",
+    "content_type": [
+      "cart",
+      "cart"
+    ],
+    "codename": "delete_cart"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view cart",
+    "content_type": [
+      "cart",
+      "cart"
+    ],
+    "codename": "view_cart"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add cart item",
+    "content_type": [
+      "cart",
+      "cartitem"
+    ],
+    "codename": "add_cartitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change cart item",
+    "content_type": [
+      "cart",
+      "cartitem"
+    ],
+    "codename": "change_cartitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete cart item",
+    "content_type": [
+      "cart",
+      "cartitem"
+    ],
+    "codename": "delete_cartitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view cart item",
+    "content_type": [
+      "cart",
+      "cartitem"
+    ],
+    "codename": "view_cartitem"
+  }
+},
+{
+  "model": "account.account",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$xWFJPhvihjKOWmfqf0sisd$Tgt+qWc4ElLyRgfzlvYkzk5ImIfdj5TIGu0PlL2NUpE=",
+    "is_superuser": true,
+    "first_name": "subhash",
+    "last_name": "sahi",
+    "username": "rowtu",
+    "email": "subhash@krify.com",
+    "phone_number": "",
+    "date_joined": "2026-02-28T04:26:31.786Z",
+    "last_login": "2026-03-27T05:19:03.748Z",
+    "is_admin": true,
+    "is_staff": true,
+    "is_active": true,
+    "is_superadmin": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2026-02-28T08:14:17.140Z",
+    "user": [
+      "subhash@krify.com"
+    ],
+    "content_type": [
+      "category",
+      "category"
+    ],
+    "object_id": "1",
+    "object_repr": "shirts",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2026-02-28T08:14:58.114Z",
+    "user": [
+      "subhash@krify.com"
+    ],
+    "content_type": [
+      "category",
+      "category"
+    ],
+    "object_id": "2",
+    "object_repr": "jeans",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2026-02-28T08:15:57.335Z",
+    "user": [
+      "subhash@krify.com"
+    ],
+    "content_type": [
+      "category",
+      "category"
+    ],
+    "object_id": "3",
+    "object_repr": "pants",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2026-02-28T08:16:24.438Z",
+    "user": [
+      "subhash@krify.com"
+    ],
+    "content_type": [
+      "category",
+      "category"
+    ],
+    "object_id": "4",
+    "object_repr": "jackets",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2026-02-28T08:16:58.106Z",
+    "user": [
+      "subhash@krify.com"
+    ],
+    "content_type": [
+      "category",
+      "category"
+    ],
+    "object_id": "5",
+    "object_repr": "t-shirts",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2026-02-28T08:17:17.914Z",
+    "user": [
+      "subhash@krify.com"
+    ],
+    "content_type": [
+      "category",
+      "category"
+    ],
+    "object_id": "6",
+    "object_repr": "shoes",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2026-02-28T09:07:09.105Z",
+    "user": [
+      "subhash@krify.com"
+    ],
+    "content_type": [
+      "store",
+      "products"
+    ],
+    "object_id": "1",
+    "object_repr": "ATX-JEANS",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2026-02-28T09:11:02.466Z",
+    "user": [
+      "subhash@krify.com"
+    ],
+    "content_type": [
+      "store",
+      "products"
+    ],
+    "object_id": "2",
+    "object_repr": "Great-Tshirt",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2026-02-28T09:16:13.266Z",
+    "user": [
+      "subhash@krify.com"
+    ],
+    "content_type": [
+      "store",
+      "products"
+    ],
+    "object_id": "3",
+    "object_repr": "Blue-shirt",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2026-02-28T09:25:26.923Z",
+    "user": [
+      "subhash@krify.com"
+    ],
+    "content_type": [
+      "store",
+      "products"
+    ],
+    "object_id": "4",
+    "object_repr": "cargo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2026-02-28T09:26:16.314Z",
+    "user": [
+      "subhash@krify.com"
+    ],
+    "content_type": [
+      "store",
+      "products"
+    ],
+    "object_id": "5",
+    "object_repr": "bluebay",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2026-02-28T09:27:00.795Z",
+    "user": [
+      "subhash@krify.com"
+    ],
+    "content_type": [
+      "store",
+      "products"
+    ],
+    "object_id": "6",
+    "object_repr": "checks",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2026-02-28T09:48:13.848Z",
+    "user": [
+      "subhash@krify.com"
+    ],
+    "content_type": [
+      "store",
+      "products"
+    ],
+    "object_id": "7",
+    "object_repr": "shirt",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2026-02-28T09:50:08.473Z",
+    "user": [
+      "subhash@krify.com"
+    ],
+    "content_type": [
+      "store",
+      "products"
+    ],
+    "object_id": "8",
+    "object_repr": "pants",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2026-02-28T10:03:55.874Z",
+    "user": [
+      "subhash@krify.com"
+    ],
+    "content_type": [
+      "store",
+      "products"
+    ],
+    "object_id": "8",
+    "object_repr": "pants",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is available\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2026-02-28T10:04:15.472Z",
+    "user": [
+      "subhash@krify.com"
+    ],
+    "content_type": [
+      "store",
+      "products"
+    ],
+    "object_id": "8",
+    "object_repr": "pants",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is available\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2026-03-03T05:09:09.958Z",
+    "user": [
+      "subhash@krify.com"
+    ],
+    "content_type": [
+      "store",
+      "products"
+    ],
+    "object_id": "9",
+    "object_repr": "shoes",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2026-03-03T05:11:29.577Z",
+    "user": [
+      "subhash@krify.com"
+    ],
+    "content_type": [
+      "store",
+      "products"
+    ],
+    "object_id": "9",
+    "object_repr": "shoes",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is available\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2026-03-03T05:11:46.272Z",
+    "user": [
+      "subhash@krify.com"
+    ],
+    "content_type": [
+      "store",
+      "products"
+    ],
+    "object_id": "9",
+    "object_repr": "shoes",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is available\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2026-03-25T08:59:34.699Z",
+    "user": [
+      "subhash@krify.com"
+    ],
+    "content_type": [
+      "store",
+      "products"
+    ],
+    "object_id": "5",
+    "object_repr": "bluebay",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Stocks\"]}}]"
+  }
+}
+]

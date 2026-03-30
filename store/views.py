@@ -4,7 +4,8 @@ from category.models import Category
 from django.shortcuts import get_object_or_404
 from cart.models import CartItem
 from cart.views import _card_id
-
+from django.http import HttpResponse
+from django.db.models import Q
 from django.core.paginator import Paginator,EmptyPage,PageNotAnInteger
 
 # Create your views here.
@@ -50,3 +51,30 @@ def product(request,category_slug,product_slug):
     
     
    return render(request,"store/product_details.html",context)
+
+
+
+def search(request):
+    keyword = ''
+    products = Products.objects.none()  # safer default
+
+    if 'keyword' in request.GET:
+        keyword = request.GET['keyword'].strip()
+        print("Keyword value:", keyword)
+
+        if keyword:  # only search if not empty
+            products = Products.objects.filter(
+                Q(product_name__icontains=keyword) |
+                Q(description__icontains=keyword),
+                is_available=True
+            )
+            product_count=products.count()
+
+    context = {
+        'product': products,
+        'keyword': keyword,
+         "product_count":product_count
+    }
+
+    print(products.query)  # debug SQL
+    return render(request, "store/store.html", context) 
