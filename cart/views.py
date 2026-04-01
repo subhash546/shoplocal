@@ -56,6 +56,10 @@ def _card_id(request):
     return cart 
 
 def add_cart(request,product_id):
+    color=request.GET["color"]
+    size=request.GET["size"]
+    print(color,size)
+    
     product=get_object_or_404(Products,id=product_id)
     try:
         cart =Cart.objects.get(cart_id=_card_id(request))
