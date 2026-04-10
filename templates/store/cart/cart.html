@@ -47,9 +47,14 @@
                         class="title text-dark"
                         >{{item.product.product_name}}</a
                       >
+
                       <p class="text-muted small">
-                        Matrix: 25 Mpx <br />
-                        Brand: Canon
+  {% for v in item.variations.all %}
+    <strong>{{ v.variation_category|capfirst }}</strong>: {{ v.variation_value }}<br>
+  {% empty %}
+    No variations
+  {% endfor %}
+</p>
                       </p>
                     </figcaption>
                   </figure>
@@ -64,7 +69,7 @@
                           type="button"
                           id="button-plus"
                         >
-                          <a href="{% url 'subcart' item.product.id %}">
+                          <a href="{% url 'subcart' item.product.id  item.id%}">
                             <i class="fa fa-minus"></i
                           ></a>
                         </button>
@@ -75,15 +80,18 @@
                         value="{{item.quantity}}"
                       />
                       <div class="input-group-append">
-                        <button
-                          class="btn btn-light"
-                          type="button"
-                          id="button-minus"
-                        >
-                          <a href="{% url 'addcart' item.product.id %}"
-                            ><i class="fa fa-plus"></i
-                          ></a>
-                        </button>
+                      <form action="{% url 'addcart' item.product.id %}" method="POST">
+  {% csrf_token %}
+
+  <!-- Hidden variations -->
+  {% for v in item.variations.all %}
+    <input type="hidden" name="{{ v.variation_category }}" value="{{ v.variation_value }}">
+  {% endfor %}
+
+  <button class="btn btn-light" type="submit">
+    <i class="fa fa-plus"></i>
+  </button>
+</form>
                       </div>
                     </div>
                     <!-- input-group.// -->
@@ -99,7 +107,7 @@
                 </td>
                 <td class="text-right">
                   <a
-                    href="{% url 'removecart' item.product.id %}"
+                    href="{% url 'removecart' item.product.id item.id %}"
                     class="btn btn-danger"
                   >
                     Remove</a

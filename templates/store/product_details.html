@@ -15,6 +15,7 @@
         </aside>
         <main class="col-md-6 border-left">
           <form action="{% url 'addcart' product.id %}" method="POST" >
+             {% csrf_token %}
 
          
           <article class="content-body">
@@ -37,7 +38,8 @@
             <div class="row" >
               <div class="item-option-select" >
                 <h6>Choose Color</h6>
-                <select name="color" class="form-control" >
+                <select name="color" class="form-control"  required>
+                    <option value="" disabled selected>Select colour</option>
 {% for i in product.variations_set.all  %}
                   {% if i.variation_category == 'color' and i.is_active  %}
         <option value="{{ i.variation_value | lower}}">
@@ -53,7 +55,8 @@
             <div class="row">
               <div class="item-option-select">
                 <h6>Select Size</h6>
-                <select name="size"class="form-control">
+                <select name="size"class="form-control" required>
+                  <option value="" disabled selected>Select size</option>
                   {% for i in product.variations_set.all %}
                  {% if i.variation_category == 'size' and i.is_active %}
         <option value="{{ i.variation_value | lower }}">
@@ -67,7 +70,7 @@
             <!-- row.// -->
             <hr />
             {% if product.stocks > 0 %} {% if in_cart %}
-            <button class="btn btn-success" disabled>
+            <!-- <button class="btn btn-success" disabled>
               <span class="text">Added to Cart</span>
               <i class="fas fa-check"></i>
             </button>
@@ -75,6 +78,10 @@
             <a href="{% url 'cart' %}" class="btn btn-info mt-2">
               <span class="text">View Cart</span>
               <i class="fas fa-eye"></i>
+            </a> -->
+            <button type="submit" class="btn btn-primary">
+              <span class="text">Add to Cart</span>
+              <i class="fas fa-shopping-cart"></i>
             </a>
 
             {% else %}
